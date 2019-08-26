@@ -5,15 +5,27 @@ body {
 
 /* Targeting a class in CSS - every element with the class of header will recieve these CSS rules */
 .header {
-    background-color: blue;
-    overflow: hidden;
-    
+    background-color: #5C6B73;
+    overflow: hidden;    
+}
+
+/* These Css rules will be applied when we hover over an anchor element inside of an element using the header class */
+
+.header a:hover {
+    background-color: lightgray;
 }
 
 .headerLink {
     padding: 14px 16px;
     text-decoration: none;
-    color: white;
+    color: #FFFFFF;
+    background-color: #4A543A;
+    /* 
+        Red: f * f = 15 * 15 = 255
+        Blue: f * f = 15 * 15 = 255
+        Green: f * f = 15 * 15 = 255
+        255, 255, 255
+    */
     font-size: 20pt;
 }
 
