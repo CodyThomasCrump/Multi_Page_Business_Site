@@ -1,12 +1,12 @@
 body {
-    background-color: lightgray;
+    background-color: #5C6B73;
     margin: 0;
 }
 
 /* Targeting a class in CSS - every element with the class of header will recieve these CSS rules */
 .header {
-    background-color: #5C6B73;
-    overflow: hidden;    
+    background-color: #003F91;
+    overflow: hidden; 
 }
 
 /* These Css rules will be applied when we hover over an anchor element inside of an element using the header class */
