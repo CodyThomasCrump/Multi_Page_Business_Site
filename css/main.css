@@ -1,6 +1,8 @@
 body {
     background-color: #5C6B73;
     margin: 0;
+    /* font-family: 'Roboto Mono', monospace; */
+    font-family: 'MedievalSharp', cursive;
 }
 
 /* Targeting a class in CSS - every element with the class of header will recieve these CSS rules */
